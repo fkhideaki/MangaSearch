@@ -1,0 +1,55 @@
+body
+{
+	font-size: 20px;
+	line-height: 2rem;
+	margin-top:2rem;
+}
+input
+{
+	font-size: 20px;
+	line-height: 2rem;
+	margin-top: 1.5rem;
+}
+.head
+{
+	margin-top: 2rem;
+}
+input#word
+{
+	border:solid;
+	border-width:1px;
+	border-color:darkred;
+	border-radius:10px;
+	box-shadow: none;
+	padding: 2px 8px;
+}
+
+@media only screen and (max-device-width: 480px)
+{
+
+body
+{
+	font-size: 30px;
+	line-height: 3rem;
+	margin-top:2rem;
+}
+input
+{
+	font-size: 30px;
+	line-height: 3rem;
+}
+.head
+{
+margin-top: 3rem;
+}
+input#word
+{
+	border:solid;
+	border-width:1px;
+	border-color:darkred;
+	border-radius:10px;
+	box-shadow: none;
+	padding: 2px 8px;
+}
+
+}

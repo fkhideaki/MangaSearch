@@ -1,0 +1,57 @@
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>漫画一括検索</title>
+<script type="text/javascript" src="./cs.js"></script>
+<link rel="stylesheet" type="text/css" href="./cs.css">
+</head>
+
+<body>
+
+<h1>漫画一括検索</h1>
+
+指定キーワードを有名漫画書店の検索ページでまとめて検索します。
+
+<br>
+
+<form>
+<div>
+<label for="word">検索ワード:</label>
+<input type="text" id="word" name="serachWord" size="40"><br>
+<input type="button" value="ワード設定" onClick="onCreate()"/>
+</div>
+</form>
+
+<hr>
+
+<div class="head">
+検索ワード : <a target="_blank" id="wdcur">未設定</a><br>
+</div>
+
+<div class="head">Google：
+<a target="_blank" id="urlGG">--</a><br>
+</div>
+
+<div class="head">とら　：
+<a target="_blank" id="urlT">--</a> /
+<a target="_blank" id="urlTU">--</a> /
+<a target="_blank" id="urlTM">--</a><br>
+</div>
+
+<div class="head">めろん：
+<a target="_blank" id="urlM">--</a> /
+<a target="_blank" id="urlMU">--</a> /
+<a target="_blank" id="urlMM">--</a><br>
+</div>
+
+<div class="head">めいと：
+<a target="_blank" id="urlA">--</a><br>
+</div>
+
+<div class="head">げま　：
+<a target="_blank" id="urlG">--</a><br>
+</div>
+
+</body>
+
+</html>
